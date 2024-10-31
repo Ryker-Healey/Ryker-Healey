@@ -1,0 +1,33 @@
+/* margin, widh and color adjustment */
+body {
+    margin: 10px;
+    width: 725px; 
+    background-color: lightcyan;
+}
+
+/*10 pixel padding for all headings */
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px;
+}
+
+/*5 pixel left and right padding */
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* 10 pixel left padding for list items*/
+ul li, ol li {
+    padding-left: 10px;
+}
+
+/*blue rounded image border */
+img {
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+/* image position */
+img {
+    position: relative;
+}

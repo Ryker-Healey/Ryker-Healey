@@ -1,0 +1,187 @@
+
+@media only screen and (max-width: 2000px) { 
+    #mobile_menu { display: none; }    
+}
+/* tablet portrait layout (768px to 959px) */
+@media only screen and (max-width: 959px) { 
+    #mobile_menu { display: none; } 
+}
+/* mobile landscape layout (480px to 767px) */ 
+
+@media only screen and (max-width: 767px) { 
+    #mobile_menu { display: block; }
+    #nav_menu { display: none; }
+    header h2 { font-size: 1.375em; }       /* 22 ÷ 16 */ 
+    header h3 { font-size: .8125em; }   /* 13 ÷ 16 */ 
+    p { font-size: .875em; }            /* 14 ÷ 16 */ 
+    article h1, main h2, aside h2
+        { font-size: 1em; }             /* base font size */ 
+    aside li { font-size: .875em; }     /* 14 ÷ 16 */
+}
+/* mobile portrait layout (479px or less) */ 
+
+@media only screen and (max-width: 470px) { 
+    #mobile_menu { display: block; }
+    #nav_menu { display: none; }
+    header h2 { font-size: 1.375em; }   /* 22 ÷ 16 */ 
+    header h3 { font-size: .8125em; }   /* 13 ÷ 16 */ 
+    p { font-size: 1em; }            /* 14 ÷ 16 */ 
+    article h1, main h2, aside h2 
+        { font-size: 1em; }             /* base font size */ 
+    aside li { font-size: .875em; }     /* 14 ÷ 16 */ 
+  table {
+                border: none; 
+            }
+            thead {
+                display: none; 
+                background-color: white;
+            }
+            tr {
+                display: block; 
+                margin-bottom: 15px;
+                border: 1px solid #ffff; 
+            }
+            td {
+                display: flex; 
+                padding: 10px; 
+                border: none; 
+                position: relative; 
+            }
+
+        }
+section {
+
+}
+body {
+    
+    font-size: 1em;    
+    width: 100%;         
+    max-width 3440px;
+    background-color: teal; 
+} 
+
+header { 
+    width: 97.917%;          
+    padding: 10px 1.0417%;
+    clear: both; 
+    font-size: 2em;
+
+
+     }
+
+main {
+    width:60%;          
+    background-color: aliceblue;
+    float: left;
+    padding:1em
+        
+}
+
+aside {
+    width: 47.917%;          /* 480 / 960 * 100 */
+    padding: 10px 1.0417%;
+    background-color: #ffffff; /* this color is white for column panel */
+    float: right; }
+h1 {
+    font-size: 1.75em; /* 28 ÷ 16 */ 
+    padding: 10px;
+}
+
+h2 {
+    font-size: 1.5em; /* 24 ÷ 16 */ 
+    padding: 10px;
+} 
+
+h3 {
+    font-size: 1.125em; /* 18 ÷ 16 */ 
+    padding: 10px;
+} 
+p { 
+    font-size: 1.125em; /* 18 ÷ 16 */ 
+  
+}
+
+blockquote {
+    width: 47.917%;          /* 480 / 960 * 100 */
+    padding: 10px 1.0417%;
+    float: center; 
+}
+footer { 
+    font-size: .75em; /* 12 ÷ 16 */ 
+    width: 97.917%;            /* 940 / 960 * 100 */
+    padding: 10px 1.0417%;
+    clear: both; 
+     }
+    
+ul { 
+    
+    padding-left: 10px; } 
+
+li {
+    padding-left: 10px; /* space between bullet and text */ 
+   
+} 
+
+
+/* Navigation css aligned left */ 
+#nav_menu ul {
+     list-style-type: none; padding: 1em 0;
+     font-size: 1.5em;
+     text-align: left;
+     } 
+#nav_menu ul li { 
+    display: inline; 
+    padding: 0 1em; } 
+#nav_menu ul li a { 
+    font-weight: bold; 
+    color: #ffffff; }
+#nav_menu ul li a.current { text-decoration: none; }
+
+/* Special main image on index page with blue border and rounded corner- must have .bluetouch div class */ 
+.bluetouch img {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #B5D3E7;
+    margin: 0;
+    padding: 0;
+    border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    position: relative;
+    right: 10px; 
+    top: 10px; 
+}
+
+/* basic images where blue borders are not required667 × 500 */ 
+img {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    
+}
+
+#image1 {
+  background-image: url("https://media.istockphoto.com/photos/cyclist-rides-his-bike-up-a-steep-hill-picture-id498375904?k=6&m=498375904&s=612x612&w=0&h=sUaZZDGKCUs0UComoQGrxkTcewmnde98RJAAEEFejJU=");
+height:300px;
+width:500px;
+
+  border-radius:20%;
+}
+
+#image1:hover{
+    background-image: url("https://target.scene7.com/is/image/Target/GUEST_f750cd6e-865b-4302-8ab4-c91ffb59aedc?wid=488&hei=488&fmt=pjpeg");
+
+left:0
+}
+
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #ffff;
+        }
+        th, td {
+            border: 1px solid #ffff;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffff;
